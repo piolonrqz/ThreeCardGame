@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Card, CardContent, Typography, Grid } from '@mui/material';
-import './CardGame.css';
+import './ThreeCardGame.css';
 
 const suits = ['hearts', 'spades', 'clubs', 'diamonds'];
 const values = [
@@ -54,9 +54,9 @@ const CardGame = () => {
   };
 
   return (
-    <div className="card-game">
+    <div className="three-card-game">
       <Typography variant="h4" gutterBottom className="title">
-        Three Cards
+        CASINO: THREE CARD GAME
       </Typography>
       <Grid container spacing={2} className="cards-container">
         {/* Player 1 Section */}
